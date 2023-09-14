@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    
+}  
+
+.head-both{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+body{
+    background: rgb(12 12 51) ;
+}
+/* nav css start */
+.logo img{
+    width: 150px;
+    
+}
+
+
+.navbar-start{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+   
+}
+
+nav ul{
+    display: flex;
+    justify-items: center;
+
+}
+
+nav ul li a{
+    color: #ffffff;
+    font-size: 1.8 rem;
+    padding: 0px 31px;
+}
+
+nav ul li a:hover{
+   color:#57adea;
+    transition: .5s ease;
+}
+
+
+/* new nav style start */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-start .container {
+    justify-content: space-between !important;
+}
+/* new nav style end */
+
+.leftside-img.width-50 {
+    display: flex;
+    justify-content: center;
+}
+
+.about-img.width-50 {
+    display: flex;
+    justify-content: center;
+}
+
+.r8side-text h1 {
+    margin-bottom: 20px;
+}
+
+.textaitem img{
+    max-width: 400px;
+}
+
+.textaitem{
+    padding: 80px 0;
+}
+
+/* nav css end */
+
+/* aboutme css start */
+
+.aboutme img{
+    max-width: 400px;
+}
+
+.aboutme .aboutmetext h3{
+    margin-top: 30px;
+   
+}
+
+.aboutme .aboutmetext p{
+    margin-top: 10px;
+}
+
+
+/* aboutme css end */
+
+
+
+/* my skrill css start */
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.visit-btn {
+    background: red;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin: 17px auto;
+    display: block;
+    width: 120px;
+}
+
+.title-sec h1 {
+    font-size: 30px;
+}
+
+.skillsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+
+
+.skillsection h1{
+    padding-bottom: 50px;
+}
+
+
+/* my skrill css end */
+
+
+.aboutmetext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.width-50{
+    width: 50%;
+}
+
+.aboutme {
+    padding: 80px 0;
+}
+
+.skill-container {
+    padding: 80px 0;
+}
+
+
+
+/* footer css start */
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 34px;
+    font-weight: 500;
+    position: relative;
+    
+    
+    
+}
+
+.footer-col h4::before{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: 	#ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5 ease;
+
+
+}
+
+
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+    transition: all .5s ease;
+
+}
+
+/* responsive */
+
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}
+/* footer css end */
+
+
+
+/* new skill css start */
+
+
+
+.skill {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-top: 5px;
+    position: relative; /* Add this to position the percentage text */
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    border-radius: 10px;
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    text-align: center;
+    line-height: 20px; /* Center the text vertically */
+}
+
+/* Add animations for each progress bar with different durations */
+.progress[data-value="50%"] {
+    animation: fill-progress-50 2s ease-in-out forwards;
+}
+
+.progress[data-value="80%"] {
+    animation: fill-progress-80 2s ease-in-out forwards;
+}
+
+.progress[data-value="70%"] {
+    animation: fill-progress-70 2s ease-in-out forwards;
+}
+
+.progress[data-value="60%"] {
+    animation: fill-progress-60 2s ease-in-out forwards;
+}
+
+@keyframes fill-progress-50 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes fill-progress-80 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes fill-progress-70 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes fill-progress-60 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+/* new skill css end */
+
+/* contact us start */
+
+.container form{
+    width: 732px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    flex-wrap: wrap;
+    border-radius: 10px;
+    MARGIN-BOTTOM: 100PX;
+}
+.container form h1{
+    font-weight: 500;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.container form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #ffffff;
+
+}
+
+.container form input::placeholder{
+    color: #ffffff;
+}
+
+.container form #lastName,
+.container form #mobile{
+    margin-left: 25px;
+}
+
+.container form h4{
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    width: 600px;
+}
+
+.container form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+
+.container form #btn2{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.container form #button:hover{
+    background: green;
+}
+
+/* contact us end */
+
+.container2{
+    margin-left: 20px;
+}
+
+
+/* project grup start */
+
+.container .box-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container .box-container img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    border-radius: 23px;
+}
+
+
+
+
+
+/* project grup end */
+
+footer .container {
+    display: block !important;
+}
+
+.project-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+section.projects-sec {
+    padding: 80px 0px;
+}
+
+.text-cen{
+    text-align: center;
+}
+
+#btn2 {
+    padding-left: 0px !important;
+}
+#btn2:hover {
+    background: #57adea !important;
+    color: #fff !important;
+    transform: scale(1.1);
+}
