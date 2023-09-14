@@ -522,3 +522,8 @@ section.projects-sec {
     color: #fff !important;
     transform: scale(1.1);
 }
+
+
+a.visit-btn.text-cen:hover {
+    background: #65686f;
+}
