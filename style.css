@@ -135,6 +135,7 @@ nav ul li a:hover{
     margin: 17px auto;
     display: block;
     width: 120px;
+    transition: 0.3s;
 }
 
 .title-sec h1 {
@@ -490,7 +491,7 @@ textarea::-webkit-scrollbar{
 
 
 a.visit-btn.text-cen:hover {
-    background: red;
+    background: #6b2424;
 }
 
 
@@ -526,4 +527,6 @@ section.projects-sec {
 
 a.visit-btn.text-cen:hover {
     background: #65686f;
+    color: #fff !important;
+    transform: scale(1.1); 
 }
